@@ -1,0 +1,27 @@
+#profName
+{
+  font-size: 22;
+  font: Times;
+}
+#faveSites
+{
+  color: blue;
+}
+a
+{
+  color: green;
+}
+a:hover
+{
+  background-color: yellow;
+}
+p
+{
+  color: blue;
+}
+body.backgroundIMG
+{
+  background-image: url(https://image.freepik.com/free-vector/abstract-yellow-zoom-lines-empty-background_1017-19834.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
