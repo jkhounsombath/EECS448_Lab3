@@ -8,4 +8,8 @@ function update()
   bor.style.border= "solid";
   bor.style.borderWidth= bor_w+"px";
   bor.style.borderColor= "rgb("+bor_r+","+bor_g+","+bor_b+")";
+  let bg_r= document.getElementById("backgroundRed").value;
+  let bg_b= document.getElementById("backgroundBlue").value;
+  let bg_g= document.getElementById("backgroundGreen").value;
+  bor.style.backgroundColor= "rgb("+bg_r+","+bg_g+","+bg_b+")";
 }
